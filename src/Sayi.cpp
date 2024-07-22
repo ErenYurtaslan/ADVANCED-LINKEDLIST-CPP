@@ -1,23 +1,4 @@
-/**
-* @file Sayi.cpp
-* @description 
-Constructor ve Destructor (Sayi() ve ~Sayi()): Sayi sınıfının constructor'ı (Sayi()) yeni bir Sayi nesnesi oluşturduğunda başlangıç değerleri atar.
-Destructor (~Sayi()) ise Sayi nesnesi silindiğinde tüm Basamak nesnelerini siler, böylece memory leak olmaz.
-basamakEkle(int deger): Bu metot, verilen değere sahip yeni bir Basamak nesnesi oluşturur ve bu nesneyi Sayi nesnesinin sonuna ekler.
-hesaplaDeger(): Bu metot, bağlı listedeki tüm basamakları dolaşarak Sayi nesnesinin sayısal değerini hesaplar.
-basamaklariTersCevir(): Bu metot, bağlı listeyi tersine çevirir, yani sayının basamaklarını ters sırayla yerleştirir.
-tekBasamaklariBasaTasi(): Bu metot, sayının tek basamaklarını başa ve çift basamaklarını sona taşıyarak iki ayrı liste oluşturur ve sonra bu listeleri birleştirir.
-yazdir(): Bu metot, Sayi nesnesinin ve içindeki tüm Basamak nesnelerinin değerlerini ve adreslerini bir çerçeve içinde görsel bir şekilde yazdırır.
-setw setfill gibi özelliklerle daha estetik bir çıktı oluşturulmaya çalışılmıştır.
 
-Kısacası bu dosya, sayısal verileri bağlı liste yapısı kullanarak işlemek
-ve bu işlemlerin sonuçlarını kullanıcıya görsel bir şekilde sunmak için tasarlanmıştır.
-
-* @course 1. Öğretim B Grubu
-* @assignment 1. Ödev
-* @date 26/11/2023 (TAM HALİ)
-* @author Eren Yurtaslan abdulkadir.yurtaslan@ogr.sakarya.edu.tr 
-*/
 
 #include "Sayi.hpp"
 #include <iostream>
