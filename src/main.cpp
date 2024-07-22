@@ -1,32 +1,4 @@
-/**
-* @file main.cpp
 
-
-* @description 
-
-sayilariDosyadanOku(SayilarListesi &liste, const string &dosyaYolu): Bu fonksiyon, belirtilen dosya yolu üzerinden sayıları okur.
- Her satırdaki sayılar boşluk karakterine göre ayrılır, bu sayılar Sayi nesnelerine dönüştürülür ve her Sayi nesnesi SayilarListesi'ne bir Dugum olarak eklenir.
-main(): Programın ana işlevi burada gerçekleşir.
- İlk olarak, sayilariDosyadanOku fonksiyonu kullanılarak bir dosyadan sayılar okunur ve bir liste oluşturulur. 
- Daha sonra, kullanıcıya bir menü sunulur ve kullanıcıdan bir seçim yapması istenir.
-  Kullanıcının seçimine bağlı olarak aşağıdaki işlemler gerçekleştirilir:
-
-        Seçim 1: tekBasamaklariBasaTasi(), sayı listesindeki tüm sayıların tek basamaklarını başa taşır.
-        Seçim 2: basamaklariTersCevir(), listedeki her sayının basamaklarını ters çevirir.
-        Seçim 3: enBuyukSayiyiBulVeCikar(), listedeki en büyük sayıyı bulur, gösterir ve listeden çıkarır.
-        Seçim 4: Programı sonlandırır.
-
-Kullanıcı döngü içerisinde bu seçeneklerden birini seçene kadar program çalışmaya devam eder.
-Her seçim sonrasında liste güncellenir ve tekrar yazdırılır. Program, seçim 4 yapıldığında kapanır.
-
-Bu program, sayıları işlemek için bağlı liste veri yapısını kullanır ve bu sayılar üzerinde çeşitli işlemler yaparak kullanıcıya görsel çıktılar sunar.
-
-
-* @course 1. Öğretim B Grubu
-* @assignment 1. Ödev
-* @date 26/11/2023 (TAM HALİ)
-* @author Eren Yurtaslan abdulkadir.yurtaslan@ogr.sakarya.edu.tr
-*/
 
 #include "SayilarListesi.hpp"
 #include <iostream>
