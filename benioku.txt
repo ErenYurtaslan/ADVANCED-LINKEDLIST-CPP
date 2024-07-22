@@ -1,0 +1,1 @@
+mingw32-make komutu ile program çalışır. / The program runs with the mingw32-make command.
