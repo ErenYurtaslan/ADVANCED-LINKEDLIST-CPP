@@ -1,26 +1,3 @@
-/**
-* @file SayilarListesi.cpp
-
-* @description Metotları açıklamak gerekirse;
--Constructor ile okunan txt'deki yeni sayılar, yeni bir SayilarListesi elemanı oluyor.
--Destructor ile memory leak'in önüne geçiliyor ve stack temizleniyor.
--sayiEkle: dosya okuma işleminde dosyadaki sayıları eklemede kullanılıyor. hiç sayı yoksa ilk
-eleman ataması yapılıyor, başka sayı önceden varsa sıraya ekleniyor.
--basamaklariTersCevir: sayının basamaklarını tam tersi yönünde işaretleyerek değiştirme işlemi. bunu yaparken sayi.cpp
-dosyasındaki basamaklariTersCevir metodunu kullanıyor.
--tekBasamaklariBasaTasi: tek sayı olan basamakları en başa atama işlemi. 
-main.cpp'deki aynı isimli metottan faydalanıyor çünkü öncelikle işlemler bir alt listede yapılmalı ki sayının bütünü bozulmasın.
--enBuyukSayiyiBulVeCikar: bu metodun özü işte bu sayfada. çünkü sayı kıyaslaması yapmamız gerekiyor ve
-bunu Sayi* türünde değer tutan bu sayfada yapmalıyız. Sonuç olarak rakamlar değil büyük sayılar kıyaslanacak ve o sayının 
-sahip olduğu tüm basamaklar silinecek.
--yazdir:sayi.cpp'de aslı bulunan metotlardan biri. Yazdırma işleminin detaylarına orada yer verilecektir.
-
-* @course 1. Öğretim B Grubu
-* @assignment 1. Ödev
-* @date 26/11/2023 (TAM HALİ)
-* @author Eren Yurtaslan abdulkadir.yurtaslan@ogr.sakarya.edu.tr
-*/
-
 #include "SayilarListesi.hpp"
 #include <iostream>
 
